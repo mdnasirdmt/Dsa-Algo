@@ -1,2 +1,2 @@
 # Dsa-Algo
-In this repo practicing q
+In this repo practicing data structure and algorithem using Java.
