@@ -23,13 +23,13 @@ public class RemoveDuplicateFromArray {
 		for (int i = 0; i < arr.length; i++) {
 
 			freq[arr[i]]++;
-//			System.out.print(freq[arr[i]]+" ");
+//			System.out.print(freq[arr[i]]++);
 		}
 //			System.out.println(Arrays.toString(freq));
 
 		for (int i = 0; i < freq.length; i++) {
 
-			if (freq[i] >= 1) {
+			if (freq[i] >0) {
 				System.out.print(i + " ");
 			}
 
