@@ -80,7 +80,7 @@ public class NodeCreation {
 			i++;
 		}
 		
-		System.out.println(cur1.data);
+		System.out.println("mid is : "+cur1.data);
 
 	}
 
