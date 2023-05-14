@@ -15,6 +15,7 @@ public class MaxElement {
 //		System.out.println();
 		
 //		System.out.println(Arrays.toString(freq));
+		
 		int c=0;
 		int max=0;
 		for (int i = 0; i < freq.length; i++) {
