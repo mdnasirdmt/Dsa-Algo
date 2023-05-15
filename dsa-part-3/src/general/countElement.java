@@ -23,7 +23,7 @@ public class countElement {
 					
 				}
 			}
-			if(c>1) {
+			if(c>0) {
 				System.out.println(arr[i]+" = "+ c);
 			}
 		}
