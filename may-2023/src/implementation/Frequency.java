@@ -1,5 +1,7 @@
 package implementation;
 
+import java.util.Arrays;
+
 public class Frequency {
 
 	public static void main(String[] args) {
@@ -16,10 +18,10 @@ public class Frequency {
 				}
 			}
 			if (freq[i] != visited) {
-				freq[i] = c;
+//				freq[i] = c;
 			}
 		}
-
+System.out.println(Arrays.toString(freq));
 		for (int i = 0; i < n; i++) {
 			if (freq[i] != visited) {
 				System.out.println(arr[i] + " " + freq[i]);
