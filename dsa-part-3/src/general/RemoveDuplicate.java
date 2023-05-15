@@ -17,7 +17,7 @@ public class RemoveDuplicate {
 		}
 //		System.out.println(m);
 
-		int[] fre = new int[m + 1];
+		int[] fre = new int[m+1];
 
 //		System.out.println(fre.length+" "+arr.length);
 
