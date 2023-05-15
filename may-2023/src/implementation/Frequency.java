@@ -18,7 +18,7 @@ public class Frequency {
 				}
 			}
 			if (freq[i] != visited) {
-//				freq[i] = c;
+				freq[i] = c;
 			}
 		}
 System.out.println(Arrays.toString(freq));
