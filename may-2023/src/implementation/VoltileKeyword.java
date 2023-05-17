@@ -1,6 +1,6 @@
 package implementation;
 
-class Main {
+class VoltileKeyword {
 
 	public static void main(String[] args) {
 		UseOfVolatile sharedData = new UseOfVolatile();
