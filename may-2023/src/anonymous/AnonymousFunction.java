@@ -4,7 +4,7 @@ interface Intr{
 	void fun();
 }
 
-public class InnerCalss {
+public class AnonymousFunction {
 
 	public static void main(String[] args) {
 		
