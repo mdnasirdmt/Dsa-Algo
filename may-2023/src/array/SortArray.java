@@ -9,19 +9,18 @@ public class SortArray {
 		int[] arr = { 10, 20, 5, 25, 15, 30, 12, 8, 18 };
 //		int[] asc=new int[arr.length];
 //		int[] des=new int[arr.length];
-		
-		LinkedList<Integer> asc= new LinkedList<>();
-		LinkedList<Integer> des= new LinkedList<>();
-		
-		
+
+		LinkedList<Integer> asc = new LinkedList<>();
+		LinkedList<Integer> des = new LinkedList<>();
+
 		for (int i = 0; i < arr.length; i++) {
-			
-			if(arr[i]>15)
+
+			if (arr[i] > 15)
 //				des[i]=arr[i];
 				des.add(arr[i]);
 			else
 				asc.add(arr[i]);
-				
+
 		}
 
 //		System.out.println(Arrays.toString(des));
