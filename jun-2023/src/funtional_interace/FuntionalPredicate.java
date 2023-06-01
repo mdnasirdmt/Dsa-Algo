@@ -14,15 +14,15 @@ public class FuntionalPredicate {
 
 		Predicate<Integer> isEven = n -> n % 2 == 0;
 
-		List<Integer> integers= filter(list, isEven);
-		
+		List<Integer> integers = filter(list, isEven);
+
 		System.out.println(integers);
 	}
 
 	private static List<Integer> filter(List<Integer> list, Predicate<Integer> isEven) {
-		ArrayList<Integer>arrayList=new ArrayList<>();
-		for(Integer i: list)
-			if(isEven.test(i))
+		ArrayList<Integer> arrayList = new ArrayList<>();
+		for (Integer i : list)
+			if (isEven.test(i))
 				arrayList.add(i);
 		return arrayList;
 	}
