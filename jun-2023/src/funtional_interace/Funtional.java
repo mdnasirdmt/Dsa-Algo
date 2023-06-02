@@ -22,3 +22,5 @@ public class Funtional {
 	}
 
 }
+
+//sortted using lamda expression
