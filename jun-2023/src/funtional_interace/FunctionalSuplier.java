@@ -15,6 +15,14 @@ public class FunctionalSuplier {
 		Supplier<Double> sup1 = () -> Math.random();
 		System.out.println("randome number : " + sup1.get());
 
+		
+		//print string value 
+		String name = null;
+//		String name = "Hi Nasir";
+		Supplier<String> sup2 = () -> "No Value";
+		String result = name != null ? name : sup2.get();
+		System.out.println(result);
+
 	}
 
 }
