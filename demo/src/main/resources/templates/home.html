@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h2>Welcome to the Home Page</h2>
+    
+    <h3>Logged in as: <span th:text="${#authentication.name}"></span></h3>
+    
+    <p>
+        This is a simple home page for the authenticated user. You can customize it as per your requirements.
+    </p>
+    
+    <a href="/logout">Logout</a>
+</body>
+</html>
