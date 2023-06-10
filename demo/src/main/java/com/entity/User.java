@@ -23,7 +23,9 @@ public class User implements UserDetails {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
-	private String name;
+	private String firstname;
+
+	private String lastname;
 
 	private String email;
 
