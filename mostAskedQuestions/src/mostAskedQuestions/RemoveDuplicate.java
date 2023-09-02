@@ -29,4 +29,4 @@ public class RemoveDuplicate {
 
 }
 //remove duplicate from string 
-//if id String s="aaccbbeedd"; //output= abcde
+//if  String s="aaccbbeedd"; //output= abcde
