@@ -28,5 +28,5 @@ public class RemoveDuplicate {
 	}
 
 }
-//remove duplicate from string 
+//remove duplicate character  from string 
 //if  String s="aaccbbeedd"; //output= [a, c, b, e, d]
