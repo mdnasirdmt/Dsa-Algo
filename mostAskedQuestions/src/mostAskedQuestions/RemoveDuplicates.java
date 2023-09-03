@@ -8,7 +8,7 @@ import java.util.List.*;
 public class RemoveDuplicates {
 	public static void main(String[] args) {
 		int []arr= {5,8,4,2,15,5,2,7,8,7,1,3};
-		List<Integer> list= new ArrayList<>();
+		ArrayList<Integer> list= new ArrayList<>();
 		
 		System.out.println(Arrays.toString(arr));
 		
