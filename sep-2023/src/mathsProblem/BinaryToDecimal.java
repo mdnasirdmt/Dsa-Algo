@@ -20,7 +20,12 @@ public class BinaryToDecimal {
 //			System.out.print(digit+ " ");
 			bin += Math.pow(2, i) * digit;
 		}
-		System.out.print(bin);
+		System.out.println(bin);
+
+		////////////////////////////////
+
+//		this is inbuilt way of converting to decimal
+		System.out.println(Integer.parseInt("100", 2));
 
 	}
 
