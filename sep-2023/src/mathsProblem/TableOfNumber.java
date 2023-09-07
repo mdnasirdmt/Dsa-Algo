@@ -4,7 +4,7 @@ public class TableOfNumber {
 	public static void main(String[] args) {
 		int n = 5;
 		int limit = 10;
-		
+
 		table(n, limit);
 	}
 
