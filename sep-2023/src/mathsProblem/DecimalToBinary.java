@@ -5,6 +5,12 @@ public class DecimalToBinary {
 	public static void main(String[] args) {
 
 		int n = 11;
+		decimalToBinary(n);
+
+	}
+
+	private static void decimalToBinary(int n) {
+
 		String rem = "";
 		int x = n;
 		while (x >= 0) {
@@ -16,7 +22,8 @@ public class DecimalToBinary {
 		}
 
 		System.out.println("decimal to binary  =  " + new StringBuilder(rem).reverse().toString());
-
 	}
 
 }
+
+//convert decimal to binary number example n= 4; output= 100
