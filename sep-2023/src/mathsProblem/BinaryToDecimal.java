@@ -4,7 +4,7 @@ public class BinaryToDecimal {
 
 	public static void main(String[] args) {
 
-		int n = 1000;
+		int n = 111;
 		String s = String.valueOf(n);
 
 		// Use Java Streams to reverse the string
@@ -20,12 +20,12 @@ public class BinaryToDecimal {
 //			System.out.print(digit+ " ");
 			bin += Math.pow(2, i) * digit;
 		}
-		System.out.println(bin);
+		System.out.println("binary to decimal  =  "+bin);
 
 		////////////////////////////////
 
 //		this is inbuilt way of converting to decimal
-		System.out.println(Integer.parseInt("100", 2));
+		System.out.println("binary to decimal  =  "+Integer.parseInt("101", 2));
 
 	}
 
@@ -34,3 +34,5 @@ public class BinaryToDecimal {
 /*
  * convert binary number to decimal number example n= 1000 , output= 8
  */
+
+
