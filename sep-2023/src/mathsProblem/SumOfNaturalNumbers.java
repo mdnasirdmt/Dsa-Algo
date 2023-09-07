@@ -1,4 +1,4 @@
-package apnaCollege;
+package mathsProblem;
 import java.util.*;
 public class SumOfNaturalNumbers {
 
