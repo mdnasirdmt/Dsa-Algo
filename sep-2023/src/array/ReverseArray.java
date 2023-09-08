@@ -12,9 +12,9 @@ public class ReverseArray {
 		int r = arr.length - 1;
 
 		while (l < r) {
-			int s = arr[l];
+			int swap = arr[l];
 			arr[l] = arr[r];
-			arr[r] = s;
+			arr[r] = swap;
 
 			l++;
 			r--;
