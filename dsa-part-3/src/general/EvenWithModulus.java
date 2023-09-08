@@ -4,12 +4,12 @@ public class EvenWithModulus {
 
 	public static void main(String[] args) {
 
-		int x = 8;
+		int x = 7;
 		boolean f = (x / 2) * 2 == x;
-		if ((x / 2) * 2 == x) {
-			System.out.println("even - " + f);
+		if (f) {
+			System.out.println("number is even - " + f);
 		} else
-			System.out.println("odd - " + f);
+			System.out.println("number is odd - " + !f);
 
 	}
 
