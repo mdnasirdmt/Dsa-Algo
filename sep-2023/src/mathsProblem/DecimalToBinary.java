@@ -4,7 +4,7 @@ public class DecimalToBinary {
 
 	public static void main(String[] args) {
 
-		int n = 11;
+		int n = 8;
 		decimalToBinary(n);
 
 	}
