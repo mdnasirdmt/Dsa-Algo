@@ -1,8 +1,6 @@
 package patternsProblem;
 
-import java.util.Arrays;
-
-public class SqurePattern {
+public class HalfInvertedPyramidPat {
 
 	public static void main(String[] args) {
 		char[][] hPat = new char[5][6];
@@ -14,8 +12,9 @@ public class SqurePattern {
 		}
 
 		for (int i = 0; i < hPat.length; i++) {
-			for (int j = 0; j < hPat[i].length; j++) {
-				System.out.print(hPat[i][j] + " ");
+			for (int j = 0; j < hPat.length - i; j++) {
+
+				System.out.print("*");
 
 			}
 			System.out.println();
