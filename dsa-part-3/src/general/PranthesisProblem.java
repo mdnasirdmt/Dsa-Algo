@@ -6,10 +6,10 @@ public class PranthesisProblem {
 
 	public static void main(String[] args) {
 
-//		String str = "(){}[]";
-//		String str= "({]";
-//		String str= "()({}[]";
-		String str = "({[]})";
+		String str = "](){}[]";
+//		String str= "{({]";
+//		String str= "()({}[])";
+//		String str = "({[]})";
 
 		Stack<Character> s = new Stack<>();
 		boolean f = true;
@@ -32,7 +32,7 @@ public class PranthesisProblem {
 				}
 			}
 		}
-		if (s.isEmpty())
+		if (f)
 			System.out.println("balanced! ");
 		else
 			System.out.println("not balanced! ");
