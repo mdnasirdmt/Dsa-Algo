@@ -8,7 +8,7 @@ public class PyramidOfNumbers {
 
 	static void pyramidNum(int row, int col) {
 
-		for (int i = 0; i < row; i++) {
+		for (int i = 0; i <row; i++) {
 			int p = 1;
 			for (int j = 1; j <= col - i; j++) {
 				System.out.print(p++ + " ");
