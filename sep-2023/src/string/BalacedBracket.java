@@ -1,4 +1,4 @@
-package mostAskedQuestions;
+package string;
 
 import java.util.Stack;
 

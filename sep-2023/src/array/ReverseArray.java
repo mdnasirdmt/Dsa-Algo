@@ -7,7 +7,7 @@ public class ReverseArray {
 	public static void main(String[] args) {
 
 		int[] arr = { 1, 2, 3, 4, 5 };
-		System.out.println(Arrays.toString(arr));
+		System.out.println("Actual array "+Arrays.toString(arr));
 		int l = 0;
 		int r = arr.length - 1;
 
@@ -19,7 +19,7 @@ public class ReverseArray {
 			l++;
 			r--;
 		}
-		System.out.println(Arrays.toString(arr));
+		System.out.println("Reversed array "+Arrays.toString(arr));
 	}
 
 }
