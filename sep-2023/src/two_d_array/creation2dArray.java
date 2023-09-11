@@ -2,7 +2,7 @@ package two_d_array;
 
 import java.util.Scanner;
 
-public class LargestInMatrix {
+public class creation2dArray {
 	public static void main(String[] args) {
 		int row= 3;
 		int col= 3;
@@ -10,7 +10,7 @@ public class LargestInMatrix {
 		int[][] matrix = new int[row][col];
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println(" enter matrix values ");
+		System.out.println("enter matrix values ");
 		for (int i = 0; i < matrix.length; i++) {
 
 			for (int j = 0; j < matrix[0].length; j++) {
