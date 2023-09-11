@@ -6,7 +6,7 @@ public class DiagonalSum {
 		int[][] mat = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 
 		// printing matrix values
-//		printMatrix(mat);
+		printMatrix(mat);
 
 		// print diagonal
 		printDigonal(mat);
@@ -14,10 +14,6 @@ public class DiagonalSum {
 	}
 
 	private static void printDigonal(int[][] mat) {
-
-		// printing primary diagonal
-		System.out.println("primary diagonal ");
-
 		int sum = 0;
 
 		for (int i = 0; i < mat.length; i++) {
@@ -25,31 +21,14 @@ public class DiagonalSum {
 			for (int j = 0; j < mat[i].length; j++) {
 
 				if (i == j) {
-
-					System.out.print(mat[i][j] + " ");
 					sum += mat[i][j];
 				}
-			}
-
-		}
-
-		// printing secondary diagonal
-		System.out.println();
-
-		System.out.println("secondary diagonal ");
-		for (int i = 0; i < mat.length; i++) {
-
-			for (int j = 0; j < mat[i].length; j++) {
 				if (i + j == mat[i].length - 1) {
-
-					System.out.print(mat[i][j] + " ");
 					sum += mat[i][j];
 				}
 			}
 
 		}
-		System.out.println();
-
 		System.out.println("sum of diagonals " + sum);
 
 	}
@@ -65,7 +44,6 @@ public class DiagonalSum {
 
 		}
 
-		System.out.println("/////////////////");
 	}
 
 }
