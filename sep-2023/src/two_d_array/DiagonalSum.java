@@ -24,7 +24,8 @@ public class DiagonalSum {
 					sum += mat[i][j];
 				}
 				if (i + j == mat[i].length - 1) {
-					sum += mat[i][j];
+					if (i != j)
+						sum += mat[i][j];
 				}
 			}
 
