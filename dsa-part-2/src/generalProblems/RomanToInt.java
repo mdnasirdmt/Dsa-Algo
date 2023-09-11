@@ -4,7 +4,7 @@ public class RomanToInt {
 
 	public static void main(String[] args) {
 
-		String str = "viii";
+		String str = "III";
 
 		int n = romanToInt(str);
 		System.out.println("int value is " + n);
