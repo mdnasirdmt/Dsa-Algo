@@ -18,7 +18,15 @@ public class SplitNumber {
 			list.push(n % 10);
 			n = n / 10;
 		}
-		System.out.print(list);
+//		System.out.println(list);
+
+		/////////////////
+		for (int i = 0; i <= list.size() + 1; i++) {
+			if (i == list.size() + 1)
+				System.out.print(list.pop() + "");
+			else
+				System.out.print(list.pop() + ",");
+		}
 
 	}
 
