@@ -7,8 +7,16 @@ public class Encapsulation {
 	public static void main(String[] args) {
 		
 		Student s1= new Student("Md Nasir Hussain", 786, 95.5);
-
 		System.out.println(s1);
+		
+		Student s2= new Student();
+		s2.setName("Shahrukh Khan");
+		s2.setRoll(533);
+		s2.setPercentage(96);
+		System.out.println(s2);
+		
+		System.out.println("Name : "+s2.getName() + " \n"+ "Roll : "+ s2.getRoll()+ " \n"+ "Percentage : "+s2.getPercentage());
+		
 
 	}
 
