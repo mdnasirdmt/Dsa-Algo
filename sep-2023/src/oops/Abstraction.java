@@ -89,10 +89,3 @@ class Rectangle extends Shape {
 //and it may contain a mix of both abstract and concrete (implemented) methods. 
 
 //////////////////
-
-//interface 
-//interface is use to get 
-//1. total abstraction 
-//2. multiple inheritance 
-//because in java 
-//multiple inheritance is not supported with class level but it supported with interface level 
