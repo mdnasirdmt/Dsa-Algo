@@ -1,0 +1,53 @@
+Bit manipulation
+==================
+
+bit operator: 
+	 &
+	 |
+	 ^
+ 
+ 
+ binary system  to decimal system
+ =========================
+ 
+ binary to decimal convertion:
+  
+	0  = 000
+	1  = 001
+	2  = 010
+	3  = 011
+	4  = 100
+	5  = 101
+	6  = 110
+	7  = 111
+	8  = 1000
+	
+	
+& operator
+	
+	0 & 0 = 0
+	0 & 1 = 0
+	1 & 0 = 0
+	1 & 1 = 1
+	
+	
+	
+| operator
+	
+	0 | 0 = 0
+	0 | 1 = 1
+	1 | 1 = 1
+	1 | 0 = 1
+	
+
+^ operator
+
+	0 ^ 0 = 0
+	0 ^ 1 = 1
+	1 ^ 0 = 1
+	1 ^ 1 = 0
+	
+
+	
+	
+	
