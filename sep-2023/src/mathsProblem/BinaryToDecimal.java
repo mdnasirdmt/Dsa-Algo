@@ -4,7 +4,7 @@ public class BinaryToDecimal {
 
 	public static void main(String[] args) {
 
-		int n = 100;
+		int n = 10100;
 		binaryToDecimal(n);
 
 //		this is inbuilt way of converting to decimal
