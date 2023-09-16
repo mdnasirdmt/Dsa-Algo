@@ -58,3 +58,4 @@ class Cow extends Animal {
 // method overriding
 //when we use same method name and same parameter in two different class with different implementation or their own logic 
 //this phenomena is called method overriding
+//and this is part of inheritance because we are using extends keyword to use parrent class properties in chid class
