@@ -2,12 +2,12 @@ package oops;
 
 public class Inhritance {
 	public static void main(String[] args) {
-		Father f= new Father();
-		
+		Father f = new Father();
+
 		f.property();
 		f.occupation();
-		
-		Son s= new Son();
+
+		Son s = new Son();
 		s.property();
 		s.occupation();
 	}
@@ -34,4 +34,5 @@ class Son extends Father {
 
 //in this example we created parrent class / base class and chid class/ derived class /sub class
 //ans using parrent property in chid class . here we are inheriting parrent class all properties in child class 
+//in child class we haven't defined property method and still using by child object
 //that is inheritance in java 
