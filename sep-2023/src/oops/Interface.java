@@ -1,6 +1,6 @@
 package oops;
 
-public interface Interface {
+public class Interface {
 
 	public static void main(String[] args) {
 		King k = new King();
