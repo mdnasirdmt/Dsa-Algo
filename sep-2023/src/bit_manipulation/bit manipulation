@@ -84,4 +84,8 @@ right shift operator (>>)
 	   
 	in this we removed  2 digit from right side and placed to left side and converted in decimal
 	
+	to calculate bit right shift value there is a one formula
+    a >> b = a/(b)2
+    
+    a / (sqaure of b)
 	
