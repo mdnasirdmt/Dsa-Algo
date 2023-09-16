@@ -52,9 +52,14 @@ Bit Left shift (<<)
 
 5 << 2 = 
 5 = 0000101
+	
+	  00101
+	-------
+	
     0010100
+    -------
     
-    in this we removed 2 zero form left side and added right side and then converted in decimal 
+    in this we removed 2 digit form left side and placed right side and then converted in decimal 
     binary to decimal
     10100=  20 in decimal
     
@@ -62,5 +67,21 @@ Bit Left shift (<<)
     a << b = a* (b)2
     
     a * (sqaure of b)
+    
+ 
+    
+right shift operator (>>)
+
+	5>>2= ?
+	
+	5= 0000101
+	
+	   00001
+	   -------
+
+	   0000001 = 1
+	   -------
+	   
+	in this we removed  2 digit from right side and placed to left side and converted in decimal
 	
 	
