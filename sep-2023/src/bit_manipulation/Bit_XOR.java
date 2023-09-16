@@ -1,10 +1,9 @@
 package bit_manipulation;
 
-public class Bit_AND {
+public class Bit_XOR {
 
 	public static void main(String[] args) {
-
-		int b = 5 & 1;
+		int b = 5 ^ 6;
 
 		System.out.println(b);
 	}
@@ -12,10 +11,10 @@ public class Bit_AND {
 }
 
 //binary to decimal= 
-//bit AND (&) operator
+//bit XOR (^)
 //5 = 101
 //6 = 110
-//-------------
-//    100
+//--------------
+//    011
 //    
-//100  = 4 in decimal
+//    11 is 3 in decimal

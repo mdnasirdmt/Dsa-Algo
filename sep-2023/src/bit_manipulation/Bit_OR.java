@@ -10,8 +10,8 @@ public class Bit_OR {
 
 }
 
-//
-//bit OR operator
+////binary to decimal= 
+//bit OR (|) operator
 // 
 //5 = 101
 //6 = 110
