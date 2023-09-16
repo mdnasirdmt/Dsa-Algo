@@ -87,3 +87,12 @@ class Rectangle extends Shape {
 //
 //An abstract class in Java is a class that cannot be instantiated (meaning you cannot create objects directly from it),
 //and it may contain a mix of both abstract and concrete (implemented) methods. 
+
+//////////////////
+
+//interface 
+//interface is use to get 
+//1. total abstraction 
+//2. multiple inheritance 
+//because in java 
+//multiple inheritance is not supported with class level but it supported with interface level 
