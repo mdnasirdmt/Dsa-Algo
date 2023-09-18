@@ -23,6 +23,7 @@ public class StreamApi {
 	    // demonstration of map method
 	    List<Integer> square = number.stream().map(x -> x*x).
 	                           collect(Collectors.toList());
+	    
 	    System.out.println(square);
 
 	}
