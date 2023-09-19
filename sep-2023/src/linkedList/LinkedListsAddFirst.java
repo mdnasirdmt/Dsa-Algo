@@ -1,8 +1,8 @@
 package linkedList;
 
-import linkedList.LinkedList.Node;
+import linkedList.LinkedListAddLast.Node;
 
-public class LinkedLists {
+public class LinkedListsAddFirst {
 	public static Node head;
 	public static Node tail;
 
@@ -17,7 +17,7 @@ public class LinkedLists {
 	}
 
 	public static void main(String[] args) {
-		LinkedLists ll = new LinkedLists();
+		LinkedListsAddFirst ll = new LinkedListsAddFirst();
 
 		ll.addNode(1);
 		ll.addNode(2);

@@ -1,6 +1,6 @@
 package linkedList;
 
-public class LinkedList {
+public class LinkedListAddLast {
 
 	public static Node head;
 	public static Node tail;
@@ -17,13 +17,15 @@ public class LinkedList {
 	}
 	
 	static void addNode(Node node) {
-		LinkedList ll = new LinkedList();
+		LinkedListAddLast ll = new LinkedListAddLast();
 		ll.head = new Node(1);
 		Node n2 = new Node(2);
 		Node n3 = new Node(3);
+		Node n4 = new Node(5);
 
 		ll.head.next = n2;
 		n2.next = n3;
+		n3.next = n4;
 	}
 
 //	print linked List value
