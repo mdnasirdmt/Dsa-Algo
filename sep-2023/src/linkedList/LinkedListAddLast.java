@@ -3,7 +3,6 @@ package linkedList;
 public class LinkedListAddLast {
 
 	public static Node head;
-	public static Node tail;
 
 	public static class Node {
 		Integer data;
@@ -15,7 +14,8 @@ public class LinkedListAddLast {
 		}
 
 	}
-	
+
+//	add element at last
 	static void addNode(Node node) {
 		LinkedListAddLast ll = new LinkedListAddLast();
 		ll.head = new Node(1);
@@ -26,6 +26,18 @@ public class LinkedListAddLast {
 		ll.head.next = n2;
 		n2.next = n3;
 		n3.next = n4;
+	}
+
+//	find length 
+	static void findLength() {
+		Node h = head;
+		int c = 0;
+		while (h != null) {
+			c++;
+			h = h.next;
+		}
+
+		System.out.println("\nlinked list length : " + c);
 	}
 
 //	print linked List value
@@ -44,8 +56,8 @@ public class LinkedListAddLast {
 
 	public static void main(String[] args) {
 		addNode(head);
-
 		print(head);
+		findLength();
 	}
 
 }

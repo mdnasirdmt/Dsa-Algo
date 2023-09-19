@@ -16,16 +16,7 @@ public class LinkedListsAddFirst {
 		}
 	}
 
-	public static void main(String[] args) {
-		LinkedListsAddFirst ll = new LinkedListsAddFirst();
-
-		ll.addNode(1);
-		ll.addNode(2);
-		ll.addNode(3);
-
-		print(head);
-
-	}
+	
 
 //add value to linked list
 	void addNode(int data) {
@@ -52,6 +43,17 @@ public class LinkedListsAddFirst {
 			System.out.print(h.data + " ");
 			h = h.next;
 		}
+
+	}
+	
+	public static void main(String[] args) {
+		LinkedListsAddFirst ll = new LinkedListsAddFirst();
+
+		ll.addNode(1);
+		ll.addNode(2);
+		ll.addNode(3);
+
+		print(head);
 
 	}
 
